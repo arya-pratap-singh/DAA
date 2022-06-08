@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int n,amt;
+
     cin>>n;
 
     int i,j,a[n];
