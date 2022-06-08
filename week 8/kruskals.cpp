@@ -6,7 +6,8 @@ int find(int u,int *parent)
 {
     if(parent[u]<0)
     return u;
-
+  
+  
     return find(parent[u],parent);
 }
 
